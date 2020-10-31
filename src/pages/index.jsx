@@ -1,7 +1,12 @@
 import React from "react";
+import CustomerLayout from "../components/Layout/CustomerLayout";
 
 function index() {
-    return <div>Here will go your site</div>;
+    return (
+        <CustomerLayout>
+            <div>Here will go your site</div>
+        </CustomerLayout>
+    );
 }
 
 export default index;
